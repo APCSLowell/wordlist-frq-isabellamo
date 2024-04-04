@@ -8,8 +8,7 @@ public class WordList
   public void add(String word) { myList.add(word); }
   public String toString() { return myList.toString(); }
 
-  public int numWordsOfLength(int len)
-  {
+  public int numWordsOfLength(int len){
     /* to be implemented in part (a) */
     int num = 0;
     
@@ -21,8 +20,7 @@ public class WordList
     return num;
   }
 
-  public void removeWordsOfLength(int len)
-  {
+  public void removeWordsOfLength(int len){
     /* to be implemented in part (b) */
     for (int i =myList.size() - 1; i >= 0; i--){
       if (myList.get(i).length() == len){
